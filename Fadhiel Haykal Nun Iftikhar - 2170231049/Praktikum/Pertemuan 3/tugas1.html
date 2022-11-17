@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Konversi Nilai Angka</title>
+    </head>
+    <body>
+        <script language="Javascript">
+        //!<-
+        var nilai = prompt("nilai (0-100): ");
+        var hasil = "";
+        if(nilai>=0){
+            hasil="E"
+        }
+        
+        if(nilai>=41){
+            hasil="D"
+        }
+        
+        if(nilai>=56){
+            hasil="C"
+        }
+
+        if(nilai>=61){
+            hasil="BC"
+        }
+        
+        if(nilai>=66){
+            hasil="B"
+        }
+
+        if(nilai>=71){
+            hasil="AB"
+        }
+        
+        if(nilai>=81){
+            hasil="A"
+        }
+        
+        document.write("hasil:" + hasil);
+        //->
+        </script>
+    </body>
+</html>
